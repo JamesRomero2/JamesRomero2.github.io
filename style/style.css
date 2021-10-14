@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    color: #FFFFFF;
+    background-color: #4BC1DB;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+header {
+    margin-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #020065;
+    position: relative;
+}
+header #logo {
+    margin-left: 100px;
+}
+header ul {
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+header li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    list-style: none;
+}
+section {
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+aside {
+    float: right;
+    width: 60%;
+    box-sizing: border-box;
+}
+section h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+}
+section p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+#startButton {
+    border-style: none;
+    background-color: #00AD1C;
+    color: #FFFFFF;
+    padding: 15px 75px;
+    border-radius: 15px;
+}
+#signUpButton {
+    border-radius: 15px;
+    color: black;
+    border-style: none;
+    border: 3px solid #020065;
+    padding: 10px 25px;
+    background-color: #4BC1DB;
+}
+.imageContainer {
+    margin: 25px;
+    border: 3px solid #020065;
+    border-radius: 25px;
+    background-image: url(/images/blueplanet.jpg);
+    height: 475px;
+    background-position: -400px -350px;
+    background-repeat: no-repeat;
+}
+

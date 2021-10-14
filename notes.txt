@@ -1,0 +1,8 @@
+/*CSS DESIGN VALUES*/
+background : #4BC1DB
+lines : 020065
+button : 00AD1C
+text
+	color : FFFFFF
+	font : Arial
+	
